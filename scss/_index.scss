@@ -1,0 +1,160 @@
+.indexsection1 {
+  background: url("../img/arkaplanresmi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  transition: background-image 3s ease;
+  overflow: hidden;
+  .text {
+    background: rgba(255, 255, 255, 0.519);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.644);
+  }
+
+  .sloganindex {
+    color: #20a3d8;
+  }
+}
+
+.indexsection2 {
+  margin-top: 4rem;
+  overflow: hidden;
+
+  .tanitimresmi {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .ndntrchetmlsniz {
+    font-size: 2.5rem;
+  }
+  .indexsection2txt {
+    font-size: larger;
+    padding-top: 1rem;
+
+    .baslik {
+      font-size: 1.5rem;
+    }
+  }
+  .altslogan {
+    font-size: 2.5rem;
+    color: #20a3d8;
+  }
+}
+
+.indexsection3 {
+  margin-top: 2rem;
+  .section3baslik {
+    font-size: 2rem;
+    padding-top: 1.2rem !important;
+  }
+  .section3text {
+    font-size: 1.3rem;
+    padding-top: 0 !important;
+    padding: 1.4rem;
+  }
+  img {
+    margin-top: 3rem;
+    height: 100px;
+  }
+}
+
+.indexsection4 {
+  margin-top: 4rem;
+  position: relative;
+  .numbers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: 2rem;
+
+    .number {
+      text-align: center;
+      font-size: 3rem;
+      color: black;
+      position: relative;
+
+      .number-text {
+        display: block;
+        font-size: 1.2rem;
+        color: black;
+        margin-bottom: 0.5rem;
+      }
+      .number-value {
+        color: black;
+      }
+      .number-valuesimge {
+        color: black;
+      }
+    }
+  }
+}
+
+.asdsad {
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  .indexsection1 {
+    font-size: 2rem;
+    height: 50vh;
+  }
+  .indexsection2 {
+    .indexsection2txt {
+      font-size: 1.4rem;
+      .baslik {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .indexsection2 {
+    .indexsection2txt {
+      font-size: 1.2rem;
+      .baslik {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .indexsection1 {
+    font-size: 1.5rem;
+  }
+  .indexsection2 {
+    .indexsection2txt {
+      font-size: 1rem;
+      padding-top: 0;
+      .baslik {
+        font-size: 1.2rem;
+      }
+    }
+    .altslogan {
+      font-size: 1.4rem;
+    }
+  }
+  .indexsection4 {
+    .number {
+      padding-top: 2rem;
+      .number-text {
+        font-size: 1.2rem;
+      }
+      .number-value {
+        font-size: 2rem;
+      }
+      .number-valuesimge {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

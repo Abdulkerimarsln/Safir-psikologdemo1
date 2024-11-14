@@ -1,0 +1,46 @@
+.navbarkismi {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.5s;
+  .navbar-brand {
+    .logoresim {
+      height: 60px;
+      margin-right: 10px;
+    }
+  }
+  .active {
+    color: #20a3d8 !important;
+    border-bottom: solid #20a3d8;
+  }
+  .navbar-bg {
+    background-color: #fffaf230 !important;
+  }
+  .nav-item {
+    margin-left: 40px;
+    font-size: larger;
+  }
+  .borderayari {
+    transition: all 0.5s;
+
+    &:hover {
+      color: #20a3d8;
+    }
+  }
+}
+
+// mobile
+@media (max-width: 1200px) {
+  .navbarkismi {
+    .nav-item {
+      margin-left: 20px;
+      font-size: larger;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .active {
+    width: 30%;
+  }
+}

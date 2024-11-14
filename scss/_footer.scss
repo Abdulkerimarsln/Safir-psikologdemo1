@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: linear-gradient(rgb(0, 139, 252), rgb(3, 61, 250));
+  .text {
+    font-size: 2rem;
+    color: white;
+  }
+  .icon {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    .iconi {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: color 0.5s;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .footer {
+    .text {
+      font-size: 1.3rem;
+      color: white;
+      margin-bottom: 2rem;
+    }
+  }
+}

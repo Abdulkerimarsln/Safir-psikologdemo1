@@ -1,0 +1,43 @@
+.hakkimizda1 {
+  .hakkimizda1img {
+    background: url("../img/hakkimizda1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    font-size: 2rem;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+}
+.hakkimizda2 {
+  .hakkizdatext1 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .tavsiyeedioyrm {
+    font-size: larger;
+  }
+  .tavsiyeedioyrmtxt {
+    font-size: large;
+  }
+  .fa-star {
+    color: #ffd031;
+  }
+}
+@media (max-width: 992px) {
+  .hakkimizda2 {
+    .hakkizdatext1 {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  .hakkimizda1 {
+    .hakkimizda1img {
+      height: 20vh;
+    }
+  }
+}

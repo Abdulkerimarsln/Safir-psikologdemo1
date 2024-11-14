@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Psikolog Demo</title>
+  </head>
+  <body
+    style="
+      background-color: #fffaf2;
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+    "
+  >
+    <header class="navbarkismi roboto-regular-italic">
+      <nav class="navbar navbar-expand-lg navbar-bg">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="img/logo.png"
+              class="img-fluid logoresim rounded-circle"
+              alt=""
+            />
+            Merve Yılmaz</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link borderayari"
+                  aria-current="page"
+                  href="index.html"
+                  >Ana Sayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link borderayari" href="hakkimizda.html"
+                  >Hakkımızda</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link borderayari dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Çalışma Alanlarımız
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="bireysel-terapi.html"
+                      >Bireysel Terapi</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="aile-danismanligi.html"
+                      >Aile Danışmanlığı</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link borderayari" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link borderayari active" href="iletisim.html"
+                  >İletişim</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="iletisim1">
+      <div class="container">
+        <div class="row">
+          <p class="fw-bold display-2 text-center playwrite-gb-s-text">
+            İletişim
+          </p>
+          <div class="col-lg-6">
+            <form action="">
+              <div class="row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="İsim"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="surname"
+                    placeholder="Soyisim"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    placeholder="Mesajınız"
+                    class="form-control"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12 mt-3">
+                  <button type="submit" class="btn btn-outline-primary">
+                    Gönder
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d12139284.130503148!2d31.513292821777455!3d42.02833042167562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x40d1d9c154700e8f%3A0x1068488f64010!2sUkrayna!3m2!1d48.379433!2d31.165579899999997!4m3!3m2!1d49.9895959!2d32.6558709!5e0!3m2!1str!2str!4v1730203785796!5m2!1str!2str"
+              width="100%"
+              height="300px"
+              class="rounded"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iletisim2 shadow-lg">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <h4>
+              <i class="fa-solid fa-phone"></i>
+              Telefon
+            </h4>
+            <h6>+90 (555) 555 5555</h6>
+          </div>
+          <div class="col-lg-4">
+            <h4><i class="fa-solid fa-envelope"></i> Mail</h4>
+            <h6>info@deneme.com</h6>
+          </div>
+          <div class="col-lg-4">
+            <h4><i class="fa-solid fa-phone"></i> Adres</h4>
+            <h6>Orzhyts'kyi district, Poltava Oblastı, Ukrayna</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-12 col-lg-6 text text-center">
+            Safir Media &copy;2024 Tüm Hakları Saklıdır.
+          </div>
+          <div class="col-12 col-lg-6 icon text-center">
+            <i class="fa-brands fa-instagram iconi"></i>
+            <i class="fa-brands fa-x-twitter iconi"></i>
+            <i class="fa-brands fa-youtube iconi"></i>
+            <i class="fa-brands fa-linkedin-in iconi"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</html>
